@@ -782,7 +782,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(70, 70, 150, 0.60);
+			background: rgba(32, 32, 46, 0.80);
 			color: white;
 			display: inline-block;
 			opacity: 0;
@@ -879,7 +879,7 @@
 	#footer {
 		background: #e8eef4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 4em 4em 4em 4em;
 		text-align: center;
 	}
 
