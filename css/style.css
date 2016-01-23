@@ -62,7 +62,7 @@
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		margin-bottom: 0.2em;
 		text-transform: uppercase;
 	}
 
@@ -421,28 +421,14 @@
 		width: 100%;
 	}
 
-		table.default {
-			width: 100%;
-		}
+	table {
+		border: 4px solid #222;
+		padding: 0.5em 1em 0.5em 1em;
+	}
 
-			table.default tbody tr {
-				border-bottom: solid 1px rgba(124, 128, 129, 0.2);
-			}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				font-weight: 400;
-				padding: 0.5em 1em 0.5em 1em;
-				text-align: left;
-			}
-
-			table.default thead {
-				background: #7c8081;
-				color: #fff;
-			}
+	tbody {
+		border-top:2px solid #111111;
+	}
 
 /* Button */
 
@@ -833,7 +819,7 @@
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 5em 0 4em 0;
 	}
 
 		#main > :last-child {
@@ -853,22 +839,12 @@
 			}
 
 	body.index #main {
-		padding-top: 5em;
+		padding-top: 4em;
 	}
 
 /* CTA */
 
-	#cta {
-		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
-		color: white;
-		padding: 5em;
-		text-align: center;
-	}
+
 
 		#cta header {
 			margin-bottom: 2em;
