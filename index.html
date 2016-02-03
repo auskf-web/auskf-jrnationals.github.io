@@ -2,6 +2,24 @@
 layout: landing-page
 ---		
 
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1514939132142114',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+	
 <article id="main">
 
 	<header class="special container">
@@ -14,7 +32,16 @@ layout: landing-page
 		E. Circle Drive<br>
 		Ypsilanti, Michigan 48197<br>
 		<a href="https://goo.gl/maps/A3og67pPDVw" target="blank">Google Maps</a><br><br>
-				
+		
+		<div class="fb-page" data-href="https://www.facebook.com/auskfjrnationals/" data-tabs="timeline" data-width="500" 
+							 data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+			<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/auskfjrnationals/">
+				<a href="https://www.facebook.com/auskfjrnationals/">6th AUSKF Junior Open National Championships</a></blockquote>
+			</div>
+		</div>
+
+		<br><br>
+
 		Visit the <a href="/info.html">Info page</a> for more information.<br>
 		For registration instructions please see the <a href="/register.html">Register page</a>.<br>
 		For travel and accommodations information please see the <a href="/travel.html">Travel page</a>. <br><br>
