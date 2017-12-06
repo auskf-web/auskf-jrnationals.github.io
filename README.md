@@ -1,6 +1,6 @@
 ## auskf-jrnationals.github.io
 
-A [Jekyll-powered][1] website for the AUSKF Jr. National Championships 2016. Please visit [www.auskf-jrnationals.com][2] to learn more about this event.
+A [Jekyll-powered][1] website for the AUSKF Jr. National Championships. Please visit [www.auskf-jrnationals.com][2] to learn more about this event.
 
 Design adapted from:
 * Twenty by [HTML5 UP][3]
