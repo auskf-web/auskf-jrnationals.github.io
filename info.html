@@ -47,7 +47,7 @@ th, td {
 				<a name="date"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Date</h3></header>
 				<ul style="padding-left:2em;">
-					<li>Saturday, April 6, 2019 - Tournament</li>
+					<li>{{ site.tournament_date_with_day }} - Tournament</li>
 					
 					<!--
 					<ul style="padding-left:3em; margin-bottom: 10px;">
@@ -67,10 +67,11 @@ th, td {
 				<a name="location"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Location</h3></header>			
 				<ul style="list-style-type:none; padding-left:1em">
-					<li>South Forsyth High School</li>
-					<li>585 Peachtree Pkwy</li>
-					<li>Cumming, Georgia, 30041</li>
-					<li><a href="https://goo.gl/maps/iBqFy3hsFXw" target="blank">Google Maps</a><br></li>
+					<!-- <li>South Forsyth High School</li>
+					<li>585 Peachtree Pkwy</li> -->
+					<li>Venue TBD</li>
+					<li>Los Angeles, California</li>
+					<!-- <li><a href="https://goo.gl/maps/iBqFy3hsFXw" target="blank">Google Maps</a><br></li> -->
 				</ul>
 				
 				<!--
@@ -133,25 +134,25 @@ th, td {
 				<a name="age"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Age Determination</h3></header>
 				<ul style="list-style-type:none; padding-left:1em">
-					<li>January 1, 2019 will be the date for all birthdates. Your age on January 1st, 2019 will be your age for the tournament.</li>
+					<li>{{ site.age_deterimination_date }} will be the date for all birthdates. Your age on {{ site.age_deterimination_date }} will be your age for the tournament.</li>
 				</ul>
 				
 				<a name="shinpan"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Shinpan</h3></header>
 				<ul style="list-style-type:none; padding-left:1em">
-					<li>4-dan and up on a volunteer basis. Volunteers are asked to register by February 28th along with participating kenshi and will then be selected by the AUSKF Competition Committee. Shinpan must be available for a meeting the day of the tournament before the tournament commences.</li>
+					<li>4-dan and up on a volunteer basis. Volunteers are asked to register by {{ site.shinpan_registration_deadline }} along with participating kenshi and will then be selected by the AUSKF Competition Committee. Shinpan must be available for a meeting the day of the tournament before the tournament commences.</li>
 				</ul>
 				
 				<a name="japan"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>All Japan Dojo Youth Kendo Tournament Selection</h3></header>
 				<ul style="list-style-type:none; padding-left:1em">
-					<li>Like last year, we will be selecting 5 kenshi from the 14-15 years old division to represent the AUSKF in the All Japan Dojo Youth Kendo Tournament in July 2019 in Tokyo Japan.</li>
+					<li>Like last year, we will be selecting 5 kenshi from the 14-15 years old division to represent the AUSKF in the All Japan Dojo Youth Kendo Tournament in July {{ site.tournament_year }} in Tokyo Japan.</li>
 				</ul>
 				
 				<a name="fee"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Entry Fee</h3></header>
 				<ul style="padding-left:2em;">
-					<li>Tournament - $30 per participant</li>
+					<li>Tournament - {{ site.entry_fee }}</li>
 				</ul>
 				
 				<a name="responsible"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
