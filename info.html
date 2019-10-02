@@ -67,11 +67,15 @@ th, td {
 				<a name="location"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Location</h3></header>			
 				<ul style="list-style-type:none; padding-left:1em">
-					<!-- <li>South Forsyth High School</li>
-					<li>585 Peachtree Pkwy</li> -->
-					<li>Venue TBD</li>
-					<li>Los Angeles, California</li>
-					<!-- <li><a href="https://goo.gl/maps/iBqFy3hsFXw" target="blank">Google Maps</a><br></li> -->
+					{% if site.venue_determined == true %}
+						{{ site.venue_address_1 }}<br>
+						{{ site.venue_address_2 }}<br>
+						{{ site.venue_address_3 }}<br>
+						{{ site.venue_address_4 }}<br>
+					{% else %}
+						Venue TBD<br>
+						{{ site.tournament_location_city_state }}<br>
+					{% endif %}
 				</ul>
 				
 				<!--

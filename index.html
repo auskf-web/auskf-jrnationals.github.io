@@ -22,11 +22,16 @@ layout: landing-page
 		<br>
 		<strong>Tournament Venue</strong><br>
 
-		Venue TBD<br>
-		<!-- South Forsyth High School<br>
-		585 Peachtree Pkwy<br> -->
-		Los Angeles, California<br>
-		<!-- <a href="https://goo.gl/maps/iBqFy3hsFXw" target="blank">Google Maps</a><br> -->
+		{% if site.venue_determined == true %}
+			{{ site.venue_address_1 }}<br>
+			{{ site.venue_address_2 }}<br>
+			{{ site.venue_address_3 }}<br>
+			{{ site.venue_address_4 }}<br>
+		{% else %}
+			Venue TBD<br>
+			{{ site.tournament_location_city_state }}<br>
+		{% endif %}
+		
 		<br>
 		
 		<!-- <strong>Preliminary and tournament round brackets are now available </strong><a href="https://drive.google.com/open?id=1BjesfStPMLeSdm28TUmmb-RD0e82Xy0S" target="blank">on Google Drive!</a><br>

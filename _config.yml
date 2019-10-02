@@ -25,3 +25,12 @@ tournament_location_city_state: Los Angeles, CA
 age_deterimination_date: January 1, 2020
 shinpan_registration_deadline: February 29th, 2020
 entry_fee: $50 per participant
+
+# If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed!
+venue_determined: false
+
+# These fields are only displayed if venue_determined = true
+venue_address_1: South Forsyth High School
+venue_address_2: 585 Peachtree Pkwy
+venue_address_3: Cumming, Georgia
+venue_address_4: <a href="https://goo.gl/maps/iBqFy3hsFXw" target="blank">Google Maps</a>
