@@ -4,8 +4,10 @@ layout: landing-page
 
 <article id="main">
 
-	<header class="special container">	
-		<strong>Save the date! </strong><a href="assets/2020-welcome.pdf" target="blank">Click here for a letter for a save the date letter from the AUSKF Competition Committee.</a><br><br>
+	<header class="special container">
+		{% if site.show_save_the_date == true %}
+			<strong>Save the date! </strong><a href="assets/{{ site.tournament_year }}-welcome.pdf" target="blank">Click here for a letter for a save the date letter from the AUSKF Competition Committee.</a><br><br>
+		{% endif %}
 			
 		<strong>Photos of the 2019 AUSKF Jr. Nationals by Kaori Kikunaga and Albert Facultad are now available on </strong><a href="http://afimages.net/jrnationals2019" target="blank">AFImages</a>!<br>
 			
