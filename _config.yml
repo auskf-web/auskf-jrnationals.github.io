@@ -21,19 +21,19 @@ markdown: kramdown
 tournament_year: 2020
 tournament_date: April 4, 2020
 tournament_date_with_day: Saturday, April 4, 2020
-tournament_location_city_state: Los Angeles, CA
+tournament_location_city_state: Huntington Beach, CA
 age_deterimination_date: January 1, 2020
 shinpan_registration_deadline: February 29th, 2020
 entry_fee: $50 per participant
 
 # If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed
-venue_determined: false
+venue_determined: true
 
 # These fields are only displayed if venue_determined = true
-venue_address_1: South Forsyth High School
-venue_address_2: 585 Peachtree Pkwy
-venue_address_3: Cumming, Georgia
-venue_address_4: <a href="https://goo.gl/maps/iBqFy3hsFXw" target="blank">Google Maps</a>
+venue_address_1: Marina High School
+venue_address_2: 15871 Springdale Street
+venue_address_3: Huntington Beach, CA 92649
+venue_address_4: <a href="https://goo.gl/maps/ztAnEYYQhW2fQXtB8" target="blank">Google Maps</a>
 
 # If show_save_the_date is true ensure {{ site.tournament_year }}-welcome.pdf exists in the assets folder
 show_save_the_date: true
