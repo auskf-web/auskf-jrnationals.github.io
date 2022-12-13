@@ -18,9 +18,9 @@ github_username:
 markdown: kramdown
 
 # Tournament configuration
-tournament_year: 2020
-tournament_date: April 4, 2020
-tournament_date_with_day: Saturday, April 4, 2020
+tournament_year: 2023
+tournament_date: April 15, 2023
+tournament_date_with_day: Friday, April 15, 2023
 tournament_location_city_state: Huntington Beach, CA
 age_deterimination_date: January 1, 2020
 shinpan_registration_deadline: February 29th, 2020
