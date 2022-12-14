@@ -5,7 +5,7 @@ layout: landing-page
 <article id="main">
 
 	<header class="special container">
-		<strong><h3>2023 Junior National Championships info coming soon!</h3></strong>
+		<strong><h3>2023 Junior National Championships info coming soon!</h3></strong><br>
 		
 		<!--
 		{% if site.show_save_the_date == true %}
@@ -17,17 +17,18 @@ layout: landing-page
 		<br>
 		-->
 			
-		<!-- 	
-		<b>Dates</b><br>
-		--> 
-			
+		<b>Dates</b><br>	
+		<b>{{ site.tournament_date_with_day }}</b> - Tournament<br>
+		<br>
+		
 		<!-- <b>Friday, April 5, 2019</b> - Practice Hours - 12:00 PM (noon) to 6:00 PM<br>
 		<span>The location is: Fowler Park Recreation Center, 4110 Carolene Way, Cumming GA 30040.<br>This location is about 3.5 miles from the hotel and the tournament venue.</span><br> -->
 				
-		<!--
-		<b>{{ site.tournament_date_with_day }}</b> - Tournament<br>
+
+		<!-- <b>{{ site.tournament_date_with_day }}</b> - Tournament<br>
 		<span>Venue opens at 7 AM. Manager Meeting will be at 8 AM at the venue.</span><br>
-		<br>
+		<br> -->
+		
 		<strong>Tournament Venue</strong><br>
 
 		{% if site.venue_determined == true %}
@@ -41,9 +42,7 @@ layout: landing-page
 		{% endif %}
 		
 		<br>
-		
-		 -->
-		
+				
 		<!-- <strong>Preliminary and tournament round brackets are now available </strong><a href="https://drive.google.com/open?id=1BjesfStPMLeSdm28TUmmb-RD0e82Xy0S" target="blank">on Google Drive!</a><br>
 		<br>
 
@@ -51,18 +50,19 @@ layout: landing-page
 		
 		<!--
 		<strong>More info coming soon!</strong><br>
-		<br>
-		Visit the <a href="/info.html">Info page</a> for more information.<br> -->
+		<br> -->
+			
+		Visit the <a href="/info.html">Info page</a> for more information.<br><br>
+
 		<!-- For registration instructions please see the <a href="/register.html">Register page</a>.<br> -->
-		<!-- For travel and accommodations information please see the <a href="/travel.html">Travel page</a>. <br><br> -->
-					
-		<br>
+
+		For travel and accommodations information please see the <a href="/travel.html">Travel page</a>.<br><br>
 
 		<a href="https://www.facebook.com/auskfjrnationals/" target="blank">Follow AUSKF Junior Open National Championships on Facebook.</a>
 
 		<br><br>
 
-		Please email <a href="mailto:info@auskf-jrnationals.com?Subject=AUSKF%20Jr.%20Nationals%20{{ site.tournament_year }}" target="_top">info@auskf-jrnationals.com</a> for more information.<br><br>
+		Please email <a href="mailto:competition@auskf.org?Subject=AUSKF%20Jr.%20Nationals%20{{ site.tournament_year }}" target="_top">competition@auskf.org</a> for more information.<br><br>
 		
 		<a href="assets/noriko-horii-auskf-jr.jpg" target="blank">Banner photo</a> courtesy of Noriko Horii.
 	</header>
