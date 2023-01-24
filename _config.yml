@@ -20,14 +20,14 @@ markdown: kramdown
 # Tournament configuration
 tournament_year: 2023
 tournament_date: April 15, 2023
-tournament_date_with_day: Friday, April 15, 2023
-tournament_location_city_state: Huntington Beach, CA
+tournament_date_with_day: Saturday, April 15, 2023
+tournament_location_city_state: Southern California - Venue TBD
 age_deterimination_date: January 1, 2023
 shinpan_registration_deadline: February 28th, 2023
 entry_fee: $50 per participant
 
 # If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed
-venue_determined: true
+venue_determined: false
 
 # These fields are only displayed if venue_determined = true
 venue_address_1: Marina High School
