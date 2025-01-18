@@ -40,7 +40,7 @@ th, td {
 					<li><a href="#age">Age Determination</a></li>
 					<li><a href="#shinpan">Shinpan</a></li>
 					<!-- <li><a href="#japan">All Japan Dojo Youth Kendo Tournament Selection</a></li> -->
-					<li><a href="#fee">Entry Fee</a></li>
+					<li><a href="#fee">Entry Fee and Registration</a></li>
 					<li><a href="#responsible">Responsible Party</a></li>
 					<li><a href="#questions">Additional questions?</a></li>
 				</ul>
@@ -49,21 +49,21 @@ th, td {
 								
 				<a name="date"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Date and Time</h3></header>
-				<ul style="padding-left:2em;">
+				<ul style="list-style-type:none; padding-left:1em">
 					<strong>Note: all times subject to change</strong><br>
 					
 					<br>
 					
-					<li>Saturday, May 25, 2024 - Individual Tournament</li>
+					<li>Saturday, April 26, 2025 - Individual Tournament</li>
 					<ul style="padding-left:3em; margin-bottom: 10px;">
-						<li>7:00am – Doors open</li>
-						<li>8:30am – Opening Ceremony begins</li>
+						<li>8:00am – Doors open</li>
+						<li>9:15am – Opening Ceremony begins</li>
 					</ul>
 					
-					<li>Sunday, May 26, 2024 - Team Tournament</li>
+					<li>Sunday, April 27, 2025 - Team Tournament</li>
 					<ul style="padding-left:3em; margin-bottom: 10px;">
-						<li>7:00am – Doors open</li>
-						<li>8:30am – Opening Ceremony begins</li>
+						<li>8:00am – Doors open</li>
+						<li>9:15am – Opening Ceremony begins</li>
 					</ul>
 					
 					<!--
@@ -82,6 +82,7 @@ th, td {
 						{{ site.venue_address_2 }}<br>
 						{{ site.venue_address_3 }}<br>
 						{{ site.venue_address_4 }}<br>
+						{{ site.venue_address_5 }}<br>
 					{% else %}
 						<!-- Venue TBD<br> -->
 						{{ site.tournament_location_city_state }}<br>
@@ -98,7 +99,7 @@ th, td {
 
 				<a name="divisions"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Divisions</h3></header>
-				<ul style="padding-left:2em;">
+				<ul style="list-style-type:none; padding-left:1em">
 					<h4>Individuals</h4>
 					<li>9-years old and younger</li>
 					<li>10-11 years old</li>
@@ -142,7 +143,7 @@ th, td {
 				<a name="results"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Tournament Results</h3></header>
 				<ul style="list-style-type:none; padding-left:1em">
-					<li>Tournament results are available here: <a href="https://drive.google.com/file/d/1w1N9DP5vACJugXKzW_YKiiSX7dn-FFXZ/view?usp=sharing" target="blank">2023 AUSKF Junior Championships Results</a>.</li>
+					<li>2024 tournament results are available here: <a href="https://auskf-jrnationals.com/assets/2024-Results.pdf" target="blank">2024 AUSKF Junior Championships Results</a>.</li>
 				</ul>
 				
 				<a name="rules"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
@@ -162,8 +163,8 @@ th, td {
 						<li>In case of daihyo-sen, match will be determined by ippon-shobu</li>
 					</ul>
 					
-					<li>Tsuki is valid only for 16-18 year old age group in the Individual and Boys Team (Fukusho and Taisho) Championships.  Jodan and Nito will only be allowed in the 16-18 year old age group for Boys Individual and Boys Team (Fukusho and Taisho) Championships.</li>
-					<li>Taikai format (round robin, tournament brackets, etc) will mirror the format of the 2023 U.S. Junior Open Championships – further details regarding the Individual and Team Championships will be announced at a later date depending on the number of participants</li>
+					<li>Tsuki is valid only for 16-18 year old age group in the Individual and Boys Team (Fukusho and Taisho) Championships. Jodan and Nito will only be allowed in the 16-18 year old age group for Boys Individual and Boys Team (Fukusho and Taisho) Championships.</li>
+					<li>Taikai format (round robin, tournament brackets, etc) will mirror the format of the 2024 U.S. Junior Open Championships – further details regarding the Individual and Team Championships will be announced at a later date depending on the number of participants</li>
 					<li>We will continue to use the Provisional rules as set forth by FIK <a href="https://drive.google.com/file/d/1d54xH4qP03_DaO-tO2FcDiRQ7BKULZZd/edit" target="blank">PDF Document</a>.</li>
 							
 				</ul>
@@ -177,7 +178,7 @@ th, td {
 				<a name="shinpan"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
 				<header><h3>Shinpan</h3></header>
 				<ul style="list-style-type:none; padding-left:1em">
-					<li>4-dan and up on a volunteer basis. Volunteers are asked to register via the Google Form <a href="https://forms.gle/dJe2cCLbVHVWmztj8" target="blank">here</a> by {{ site.shinpan_registration_deadline }}. The AUSKF Competition Committee will be approving shinpan on a rolling basis. Reach out to your federation president for additional details.</li>
+					<li>4-dan and up on a volunteer basis. Volunteer shinpan are asked to register via the federation shinpan registration sheet sent out to presidents by {{ site.shinpan_registration_deadline }}. The AUSKF Competition Committee will provide travel stipends to approved shinpan.</li>
 				</ul>
 				
 				<!-- 
@@ -189,9 +190,10 @@ th, td {
 				-->
 				
 				<a name="fee"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
-				<header><h3>Entry Fee</h3></header>
-				<ul style="padding-left:2em;">
+				<header><h3>Entry Fee and Registration</h3></header>
+				<ul style="list-style-type:none; padding-left:1em">
 					<li>Tournament - {{ site.entry_fee }}</li>
+					<li>Registration will be conducted through regional federations. Please reach out to your regional federation representative with any questions on how to register.</li>
 				</ul>
 				
 				<a name="responsible"><h1 style="padding-top: 50px; margin-top: -50px;"></h1></a>
