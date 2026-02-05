@@ -5,36 +5,38 @@ email: web@auskf-jrnationals.com
 
 description: > # this means to ignore newlines until "baseurl:"
   Official website for the AUSKF Jr. Open National Championships
-  
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 url: "http://locahost:4000" # the base hostname & protocol for your site
 
-twitter_username: 
+twitter_username:
 
-github_username:  
+github_username:
 
 # Build settings
 markdown: kramdown
 
 # Tournament configuration
-tournament_year: 2025
-tournament_date: April 26-27, 2025
-tournament_date_with_day: Saturday (April 26) and Sunday (April 27)
-tournament_location_city_state: Kirkland, WA
-age_deterimination_date: January 1st, 2025
-shinpan_registration_deadline: March 2nd, 2025
+tournament_year: 2026
+tournament_date: April 11-12, 2026
+tournament_date_individual: Saturday, April 11, 2026
+tournament_date_team: Sunday, April 12, 2026
+tournament_date_with_day: Saturday (April 11) and Sunday (April 12)
+tournament_location_city_state: Huntington Beach, CA
+age_deterimination_date: January 1st, 2026
+shinpan_registration_deadline: March 14th, 2026
 entry_fee: $50 per participant
 
 # If venue_determined is false ensure tournament_location_city_state above is correct because that will be displayed
 venue_determined: true
 
 # These fields are only displayed if venue_determined = true
-venue_address_1: Juanita High School
-venue_address_2: 10601 NE 132 St.
-venue_address_3: Kirkland, WA 98034
-venue_address_4: (Greater Seattle Area)
-venue_address_5: <a href="https://maps.app.goo.gl/Yk5NN8XkcLTZzvcR7" target="blank">Google Maps</a>
+venue_address_1: Marina High School
+venue_address_2: 15871 Springdale St.
+venue_address_3: Huntington Beach, CA 92649
+venue_address_4: (Southern California)
+venue_address_5: <a href="https://share.google/z7LxkCZ830ihmjtvi" target="blank">Google Maps</a>
 
 # If show_save_the_date is true ensure {{ site.tournament_year }}-welcome.pdf exists in the assets folder
 show_save_the_date: false
