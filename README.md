@@ -1,12 +1,34 @@
-## auskf-jrnationals.github.io
+# auskf-jrnationals.github.io
 
-A [Jekyll-powered][1] website for the AUSKF Jr. National Championships. Please visit [www.auskf-jrnationals.com][2] to learn more about this event.
+The official website for the AUSKF Jr. Open National Kendo Championships, powered by GitHub Pages and Jekyll. Please visit [www.auskf-jrnationals.com][1] for more information on this event.
 
-Design adapted from:
-* Twenty by [HTML5 UP][3]
-* Free for personal and commercial use under the CCA 3.0 license ([html5up.net/license][4])
+Design adapted from Twenty by [HTML5 UP][2], free for personal and commercial use under the [CCA 3.0 license][3].
 
-[1]: https://jekyllrb.com/
-[2]: www.auskf-jrnationals.com
-[3]: html5up.net
-[4]: html5up.net/license
+## Running locally with Jekyll
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+The site will be available at `http://localhost:4000`. Jekyll will watch for changes and rebuild automatically.
+
+## Year-to-year updates
+
+Almost all tournament-specific content (dates, venue, fees, deadlines) is centralized in `_config.yml`. Update the variables there and the changes propagate across the site automatically.
+
+## Updating page content
+
+| Page | File |
+|------|------|
+| Home | `index.md` |
+| Info | `info.md` |
+| Past Results | `past.md` |
+
+## Showing/hiding nav links
+
+Navigation is hardcoded in `_includes/header.html`. Links for Register, Schedule, Brackets, and Results are commented out by default and should be uncommented as the tournament progresses through its lifecycle.
+
+[1]: https://www.auskf-jrnationals.com
+[2]: https://html5up.net
+[3]: https://html5up.net/license
