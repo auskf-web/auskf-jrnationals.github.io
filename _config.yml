@@ -16,6 +16,10 @@ github_username:
 
 # Build settings
 markdown: kramdown
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
 
 # Tournament configuration
 tournament_year: 2026
