@@ -20,13 +20,13 @@ This page contains information on:
 
 {{ site.tournament_date_individual }} - Individual Tournament  
 {: style="margin-bottom: 0"}
-- 8:00am - Doors open
-- 9:15am - Opening Ceremony begins
+- 7:00am - Doors open
+- 8:30am - Opening Ceremony begins
 
 {{ site.tournament_date_team }} - Team Tournament  
 {: style="margin-bottom: 0"}
-- 8:00am - Doors open
-- 9:15am - Opening Ceremony begins
+- 7:00am - Doors open
+- 8:15am - Opening Ceremony begins
 
 ### Location {#location}
 {% if site.venue_determined == true -%}
