@@ -2,8 +2,8 @@
 layout: landing-page
 ---
 
-**Schedule and brackets now available!**
-Click [here](https://drive.google.com/file/d/15AGH4b3a7OUO2iQenUKOzEWVUfjo0g78/view?usp=drive_link) to view and download.
+**Results now available!!**
+[Click here to view.](/past.html)
 
 **Dates**  
 **{{ site.tournament_date_individual }}**: Individual Tournament  

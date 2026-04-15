@@ -3,6 +3,7 @@ layout: inner-page
 title: Past Results
 ---
 
+- [2026](#y2026)
 - [2025](#y2025)
 - [2024](#y2024)
 - [2023](#y2023)
@@ -10,6 +11,68 @@ title: Past Results
 - [2018](#y2018)
 - [2017](#y2017)
 - [2016](#y2016)
+
+## 2026 {#y2026}
+April 11 and 12, 2026  
+Huntington Beach, CA  
+[Click here for results in PDF format.](assets/2026-Results.pdf)  
+
+**9 Years and Under**  
+**1st** Tomohide Sato (GNEUSKF)  
+**2nd** Austin Yu (NCKF)  
+**3rd** Ryuhi Ghodgaonkar (SCKO), Bohmi Park (PNKF)  
+**Kantosho** Sosuke Inoue (ECUSKF), Ryan Sohn (AEUSKF), Wataru Suwa (ECUSKF), Eames People (SCKO)  
+
+**10 - 11 Years**  
+**1st** Hideyoshi Miyamoto (SCKO)  
+**2nd** Tyler Yang (SCKF)  
+**3rd** Aron Yeu (WKF), Shinichi Nakayama (PNKF)  
+**Kantosho** Yunhoo Seo (WKF), Ian Choi (WKF), Ayame Hanaoka (SCKF), Airi Akaike (SCKO)  
+
+**12 - 13 Years**  
+**1st** Yukiya Sato (SCKO)  
+**2nd** Adam Yu (NCKF)  
+**3rd** Kai Nakazono (SCKF), Kento Yamamoto (SCKF)  
+**Kantosho** Haruma Date (AEUSKF), Yuki Takeuchi (SCKF), Jayden Kim (WKF), Takumi Tanimura (PNKF)  
+
+**13 Years and Under Girls**  
+**1st** Kathleen Ahn (WKF)  
+**2nd** Miu Sato (SCKO)  
+**3rd** Makoto Umeda (MWKF), Beckie Kim (WKF)  
+**Kantosho** Shino Ishihara (ECUSKF), Zoey Shinada (SCKF), Chloe Song (WKF), Abigail Tenn (SCKF)  
+
+**14 - 15 Years**  
+**1st** Musashi Yang (SCKF)  
+**2nd** Kai Romero (SCKF)  
+**3rd** Shawn Yang (SCKF), Saiichi Johnson (PNKF)  
+**Kantosho** Hyogo Naritomi (MWKF), So Otsuru (GNEUSKF), Lucas Chen (NCKF), Ayumu Suwa (ECUSKF)  
+
+**14 - 18 Years Girls**  
+**1st** Mai Sakamoto (SCKO)  
+**2nd** Kanon Sawabe (SCKO)  
+**3rd** Nao Umeda (MWKF), Yume Takeuchi (SCKF)  
+**Kantosho** Elizabeth Oh (SCKF), Yuria Hwang (ECUSKF), Daisy Chang (SCKF), Bailey Shinada (SCKF)  
+
+**16 - 18 Years**  
+**1st** Taichi Matsuura (MWKF)  
+**2nd** Luke Ido (SCKO)  
+**3rd** Benny Moon (SCKF), Rui Elliott (SCKF)  
+**Kantosho** Yoshihiko Shimada (SCKO), Landon Yuta Onitsuka (NCKF), Rei Elliott (SCKF), Victor Chen (NCKF)  
+
+**Youth Team**  
+**1st** SCKO-A (Miu Sato, Airi Akaike, Hideyoshi Miyamoto)  
+**2nd** WKF-A (Yunhoo Seo, Aiden Kim, Aron Yeu)  
+**3rd** SCKF-A (Tyler Yang, Ayame Hanaoka, John Honda); WKF-B (Rohan Kim, Rachel Lee, Ian Choi)  
+
+**Girls' Team**  
+**1st** SCKO-A (Erena Hoshi, Kanon Sawabe, Mai Sakamoto)  
+**2nd** SCKF-A (Colleen Chang, Bailey Shinada, Koto Miyashiro)  
+**3rd** SCKF-B (Yume Takeuchi, Chloe Shih, Momo Miyashiro); SCKO-B (Maily Dang, Alba Ueno, Nicole Kabata)  
+
+**Boys' Team**  
+**1st** SCKF-A (Kai Nakazono, Musashi Yang, Kai Romero, Ethan Choo, Shinsuke Yamamoto)  
+**2nd** WKF-A (Jayden Kim, Iven Kang, Owen Kang, Mooyoung Kim, Nathan Park)  
+**3rd** SCKO-A (Yukiya Sato, Musashi Miyamoto, Hayato Hoshi, Yoshihiko Shimada, Luke Ido); NCKF-B (Adam Yu, Haruhide Someya, Lucas Chen, Victor Chen, Landon Onitsuka)  
 
 ## 2025 {#y2025}
 April 26 and 27, 2025  
